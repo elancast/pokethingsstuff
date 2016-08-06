@@ -1,0 +1,3 @@
+Run with:
+
+  while true; do python twitter.py > /tmp/bla; cat /tmp/bla | sed -E 's/ at.*//' | say; cat /tmp/bla; date; sleep 59; done
